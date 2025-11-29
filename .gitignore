@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TaskManager/copilot-chat/d5e7cb0c/sessions
+/.vs/TaskManager/CopilotIndices/17.14.1431.25910
+/.dockerignore
+/.vs/TaskManager/FileContentIndex
