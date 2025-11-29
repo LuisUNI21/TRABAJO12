@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\bin\Release\net8.0\TaskManager.Domain.deps.json
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\bin\Release\net8.0\TaskManager.Domain.runtimeconfig.json
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\bin\Release\net8.0\TaskManager.Domain.dll
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\bin\Release\net8.0\TaskManager.Domain.pdb
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.dll
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\refint\TaskManager.Domain.dll
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.pdb
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\TaskManager.Domain.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Trabajooo\task-manager-api\src\TaskManager.Domain\obj\Release\net8.0\ref\TaskManager.Domain.dll
