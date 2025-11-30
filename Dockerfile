@@ -28,9 +28,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-# Copiamos el script de espera y lo hacemos ejecutable
-COPY ./docker/wait-for-db.sh /opt/wait-for-db.sh
-RUN chmod +x /opt/wait-for-db.sh
-
-# ENTRYPOINT: espera a db:1433 y luego arranca la app
-ENTRYPOINT ["/opt/wait-for-db.sh"]
+# Start the app directly. Docker Compose 'depends_on' and the DB healthcheck
+# will help ensure the DB container is started; transient DB errors are handled
+# by EF Core retry policies configured in the app.
+ENTRYPOINT ["dotnet", "TaskManager.Api.dll"]

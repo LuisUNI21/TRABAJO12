@@ -55,9 +55,6 @@ builder.Services.AddCors(options =>
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi", Version = "v1" });
-
-    
-       
     });
 
 var app = builder.Build();
@@ -88,16 +85,14 @@ else
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1");
-    c.RoutePrefix = string.Empty;
-});
+        logger.LogError(ex, "An error occurred while migrating or connecting to the database. Check your connection string and that the SQL Server instance is reachable.");
+        throw;
+    }
+}
 
 app.UseRouting();
 app.UseCors("Corspolicy");
 app.UseAuthentication();
 app.UseAuthorization();
-
-// Use endpoint mapping for controllers
 app.MapControllers();
-
 app.Run();
