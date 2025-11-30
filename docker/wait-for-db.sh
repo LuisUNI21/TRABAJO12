@@ -1,5 +1,9 @@
 #!/bin/bash
-set -euo pipefail
+# Enable strict mode; if pipefail is not supported silently fall back
+set -euo
+if (set -o pipefail) >/dev/null 2>&1; then
+  set -o pipefail
+fi
 
 # Robust wait-for-db script
 # 1) Wait for DNS resolution of HOST
