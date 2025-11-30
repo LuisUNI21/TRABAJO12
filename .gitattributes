@@ -3,6 +3,9 @@
 ###############################################################################
 * text=auto
 
+# Ensure the wait script uses LF endings to be executable in Linux containers
+docker/wait-for-db.sh text eol=lf
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
