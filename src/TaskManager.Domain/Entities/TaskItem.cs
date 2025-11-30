@@ -3,7 +3,7 @@ using TaskManager.Domain;
 
 namespace TaskManager.Domain.Entities
 {
-    public class TaskItem
+    public class TaskItems
     {
         public Guid Id { get; set; }
         public string Title { get; set; } = string.Empty;

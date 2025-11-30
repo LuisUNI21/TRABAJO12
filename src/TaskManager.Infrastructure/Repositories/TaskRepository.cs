@@ -18,24 +18,24 @@ namespace TaskManager.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<TaskItem> CreateAsync(TaskItem task)
+        public async Task<TaskItems> CreateAsync(TaskItems task)
         {
             await _context.TaskItems.AddAsync(task);
             await _context.SaveChangesAsync();
             return task;
         }
 
-        public async Task<TaskItem?> GetByIdAsync(Guid id)
+        public async Task<TaskItems?> GetByIdAsync(Guid id)
         {
             return await _context.TaskItems.FindAsync(id);
         }
 
-        public async Task<IEnumerable<TaskItem>> GetAllAsync()
+        public async Task<IEnumerable<TaskItems>> GetAllAsync()
         {
             return await _context.TaskItems.Where(t => t.IsActive).ToListAsync();
         }
 
-        public async Task<TaskItem> UpdateAsync(TaskItem task)
+        public async Task<TaskItems> UpdateAsync(TaskItems task)
         {
             _context.TaskItems.Update(task);
             await _context.SaveChangesAsync();

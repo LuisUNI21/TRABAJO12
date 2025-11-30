@@ -19,7 +19,7 @@ namespace TaskManager.Application.Services
 
         public async Task<TaskDto> CreateTaskAsync(TaskDto taskDto)
         {
-            var taskItem = new TaskItem
+            var taskItem = new TaskItems
             {
                 Id = Guid.NewGuid(),
                 Title = taskDto.Title,

@@ -9,33 +9,33 @@ namespace TaskManager.Infrastructure.Persistence
         {
         }
 
-        public DbSet<TaskItem> TaskItems { get; set; }
+        public DbSet<TaskItems> TaskItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.Title)
                 .IsRequired()
                 .HasMaxLength(100);
 
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.Description)
                 .HasMaxLength(500);
 
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.Status)
                 .IsRequired();
 
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.CreatedAt)
                 .HasDefaultValueSql("GETDATE()");
 
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.UpdatedAt)
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
 
-            modelBuilder.Entity<TaskItem>()
+            modelBuilder.Entity<TaskItems>()
                 .Property(t => t.IsActive)
                 .IsRequired()
                 .HasDefaultValue(true);

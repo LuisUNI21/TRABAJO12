@@ -14,7 +14,8 @@ namespace TaskManager.Infrastructure
             // Registrar DbContext (ajusta el proveedor/connection string según tu entorno)
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<TaskDbContext>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseSqlServer(connectionString, sqlOptions =>
+                    sqlOptions.MigrationsAssembly(typeof(TaskDbContext).Assembly.FullName)));
 
             // Registrar repositorios
             services.AddScoped<ITaskRepository, TaskRepository>();

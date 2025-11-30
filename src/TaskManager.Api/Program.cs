@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore; // Añadido para Database.Migrate/EnsureCreated
 using System;
 using System.Linq;
 using Microsoft.AspNetCore.Builder;
@@ -13,6 +14,7 @@ using System.Text.Json;
 using TaskManager.Application.Interfaces;
 using TaskManager.Application.Services;
 using TaskManager.Infrastructure;
+using TaskManager.Infrastructure.Persistence; // añadido
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,9 +57,53 @@ builder.Services.AddCors(options =>
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi", Version = "v1" });
-    });
+});
 
 var app = builder.Build();
+
+// Aplicar migraciones al arrancar (safe, con logging)
+using (var scope = app.Services.CreateScope())
+{
+    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+    try
+    {
+        logger.LogInformation("Applying database migrations (if any)...");
+        var dbContext = scope.ServiceProvider.GetRequiredService<TaskDbContext>();
+
+        try
+        {
+            // Intento preferente: aplicar migraciones existentes
+            dbContext.Database.Migrate();
+            logger.LogInformation("Database migrations applied.");
+        }
+        catch (Exception migrateEx)
+        {
+            // Fallback para entornos de desarrollo donde no hay migraciones creadas
+            logger.LogWarning(migrateEx, "Migrate() failed. Intentando EnsureCreated() como fallback.");
+            try
+            {
+                if (dbContext.Database.EnsureCreated())
+                {
+                    logger.LogInformation("Database schema created with EnsureCreated().");
+                }
+                else
+                {
+                    logger.LogWarning("EnsureCreated() did not create the schema (maybe already exists).");
+                }
+            }
+            catch (Exception ensureEx)
+            {
+                logger.LogError(ensureEx, "EnsureCreated() también falló.");
+                throw;
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "An error occurred while migrating or connecting to the database. Check your connection string and that the SQL Server instance is reachable.");
+        throw;
+    }
+}
 
 // Enable developer exception page in Development, otherwise configure a simple JSON exception handler
 if (app.Environment.IsDevelopment())
@@ -85,14 +131,16 @@ else
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-        logger.LogError(ex, "An error occurred while migrating or connecting to the database. Check your connection string and that the SQL Server instance is reachable.");
-        throw;
-    }
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1");
+    c.RoutePrefix = string.Empty;
+});
 
 app.UseRouting();
 app.UseCors("Corspolicy");
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Use endpoint mapping for controllers
 app.MapControllers();
+
 app.Run();

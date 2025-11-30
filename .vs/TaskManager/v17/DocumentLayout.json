@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.domain\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:src\\taskmanager.domain\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:src\\taskmanager.domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:src\\taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265BD80F-7677-450A-8E49-CF1595B4A588}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265BD80F-7677-450A-8E49-CF1595B4A588}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.infrastructure\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:src\\taskmanager.infrastructure\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Domain\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\TaskStatus.cs",
+              "RelativeToolTip": "src\\TaskManager.Domain\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T16:46:23.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "src\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T16:46:11.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Program.cs",
+              "RelativeToolTip": "src\\TaskManager.Api\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:50:54.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\TaskManager.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\appsettings.json",
+              "RelativeToolTip": "src\\TaskManager.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-30T12:17:13.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T13:44:49.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "src\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T13:40:06.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "src\\TaskManager.Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T13:38:52.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
