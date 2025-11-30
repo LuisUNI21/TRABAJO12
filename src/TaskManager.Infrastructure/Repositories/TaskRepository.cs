@@ -25,7 +25,7 @@ namespace TaskManager.Infrastructure.Repositories
             return task;
         }
 
-        public async Task<TaskItems?> GetByIdAsync(Guid id)
+        public async Task<TaskItems?> GetByIdAsync(int id)
         {
             return await _context.TaskItems.FindAsync(id);
         }
@@ -42,7 +42,7 @@ namespace TaskManager.Infrastructure.Repositories
             return task;
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var task = await GetByIdAsync(id);
             if (task != null)

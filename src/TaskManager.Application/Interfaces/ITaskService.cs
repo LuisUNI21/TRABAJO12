@@ -1,6 +1,5 @@
 namespace TaskManager.Application.Interfaces
 {
-    using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using TaskManager.Application.DTOs;
@@ -8,9 +7,9 @@ namespace TaskManager.Application.Interfaces
     public interface ITaskService
     {
         Task<TaskDto> CreateTaskAsync(TaskDto taskDto);
-        Task<TaskDto?> GetTaskByIdAsync(Guid id);
+        Task<TaskDto?> GetTaskByIdAsync(int id);
         Task<IEnumerable<TaskDto>> GetAllTasksAsync();
         Task<bool> UpdateTaskAsync(TaskDto taskDto);
-        Task<bool> DeleteTaskAsync(Guid id);
+        Task<bool> DeleteTaskAsync(int id);
     }
 }

@@ -13,32 +13,35 @@ namespace TaskManager.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.Title)
-                .IsRequired()
-                .HasMaxLength(100);
+            modelBuilder.Entity<TaskItems>(entity =>
+            {
+                // Configurar Id como int generado por la base de datos (IDENTITY)
+                entity.HasKey(t => t.Id);
+                entity.Property(t => t.Id)
+                      .ValueGeneratedOnAdd();
 
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.Description)
-                .HasMaxLength(500);
+                entity.Property(t => t.Title)
+                      .IsRequired()
+                      .HasMaxLength(100);
 
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.Status)
-                .IsRequired();
+                entity.Property(t => t.Description)
+                      .HasMaxLength(500);
 
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.CreatedAt)
-                .HasDefaultValueSql("GETDATE()");
+                entity.Property(t => t.Status)
+                      .IsRequired();
 
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.UpdatedAt)
-                .IsRequired()
-                .HasDefaultValueSql("GETDATE()");
+                entity.Property(t => t.CreatedAt)
+                      .HasDefaultValueSql("GETDATE()");
 
-            modelBuilder.Entity<TaskItems>()
-                .Property(t => t.IsActive)
-                .IsRequired()
-                .HasDefaultValue(true);
+                entity.Property(t => t.UpdatedAt)
+                      .IsRequired()
+                      .HasDefaultValueSql("GETDATE()");
+
+                // NO marcar como ValueGeneratedOnAdd: así EF enviará el valor booleano en el INSERT.
+                entity.Property(t => t.IsActive)
+                      .IsRequired()
+                      .HasDefaultValue(true);
+            });
         }
     }
 }

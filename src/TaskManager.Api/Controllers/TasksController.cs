@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaskManager.Application.DTOs;
 using TaskManager.Application.Interfaces;
+
 
 namespace TaskManager.Api.Controllers
 {
@@ -25,8 +25,8 @@ namespace TaskManager.Api.Controllers
             return Ok(tasks);
         }
 
-        [HttpGet("{id:guid}")]
-        public async Task<ActionResult<TaskDto>> GetTask(Guid id)
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<TaskDto>> GetTask(int id)
         {
             var task = await _taskService.GetTaskByIdAsync(id);
             if (task == null)
@@ -53,8 +53,8 @@ namespace TaskManager.Api.Controllers
             return CreatedAtAction(nameof(GetTask), new { id = createdTask.Id }, createdTask);
         }
 
-        [HttpPut("{id:guid}")]
-        public async Task<ActionResult> UpdateTask(Guid id, [FromBody] TaskDto taskDto)
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> UpdateTask(int id, [FromBody] TaskDto taskDto)
         {
             if (taskDto == null || id != taskDto.Id)
             {
@@ -74,8 +74,8 @@ namespace TaskManager.Api.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id:guid}")]
-        public async Task<ActionResult> DeleteTask(Guid id)
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> DeleteTask(int id)
         {
             var deleted = await _taskService.DeleteTaskAsync(id);
             if (!deleted)

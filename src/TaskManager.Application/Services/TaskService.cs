@@ -21,7 +21,6 @@ namespace TaskManager.Application.Services
         {
             var taskItem = new TaskItems
             {
-                Id = Guid.NewGuid(),
                 Title = taskDto.Title,
                 Description = taskDto.Description,
                 Status = taskDto.Status,
@@ -44,7 +43,7 @@ namespace TaskManager.Application.Services
             };
         }
 
-        public async Task<TaskDto?> GetTaskByIdAsync(Guid id)
+        public async Task<TaskDto?> GetTaskByIdAsync(int id)
         {
             var item = await _repository.GetByIdAsync(id);
             if (item == null || !item.IsActive) return null;
@@ -90,9 +89,13 @@ namespace TaskManager.Application.Services
             return true;
         }
 
-        public async Task<bool> DeleteTaskAsync(Guid id)
+        public async Task<bool> DeleteTaskAsync(int id)
         {
-            return await Task.FromResult(true);
+            var existing = await _repository.GetByIdAsync(id);
+            if (existing == null || !existing.IsActive) return false;
+
+            await _repository.DeleteAsync(id);
+            return true;
         }
     }
 }
