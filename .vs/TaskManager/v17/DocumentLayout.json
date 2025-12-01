@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2500B125-6F1D-4FE1-AEC6-41D975CF6693}|src\\TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:src\\taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.infrastructure\\persistence\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:src\\taskmanager.infrastructure\\persistence\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\TRABAJO12\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265BD80F-7677-450A-8E49-CF1595B4A588}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265BD80F-7677-450A-8E49-CF1595B4A588}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{12375EB0-2722-4D5E-9B3C-71B2562176A6}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\trabajo12\\src\\taskmanager.infrastructure\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A07BDEE6-30EF-4C6E-AC01-369B26DFF257}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:src\\taskmanager.infrastructure\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,28 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:24:46.505Z",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-30T17:34:58.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\Persistence\\TaskDbContext.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Infrastructure\\Persistence\\TaskDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\Persistence\\TaskDbContext.cs",
-              "RelativeToolTip": "src\\TaskManager.Infrastructure\\Persistence\\TaskDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:21:15.542Z",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Dockerfile",
+              "RelativeToolTip": "src\\TaskManager.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-30T17:34:55.429Z",
               "EditorCaption": ""
             },
             {
@@ -88,55 +76,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Program.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAjwFMAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\Program.cs*",
+              "RelativeToolTip": "src\\TaskManager.Api\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-30T15:50:54.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Api\\appsettings.json",
-              "RelativeToolTip": "src\\TaskManager.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-30T12:17:13.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\TaskManager.Infrastructure\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T13:44:49.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Domain\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Domain\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "src\\TaskManager.Domain\\Entities\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T13:40:06.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TRABAJO12\\src\\TaskManager.Application\\DTOs\\TaskDto.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Application\\DTOs\\TaskDto.cs",

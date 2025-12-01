@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore; // Añadido para Database.Migrate/EnsureCreated
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using Microsoft.AspNetCore.Builder;
@@ -14,11 +14,11 @@ using System.Text.Json;
 using TaskManager.Application.Interfaces;
 using TaskManager.Application.Services;
 using TaskManager.Infrastructure;
-using TaskManager.Infrastructure.Persistence; // añadido
+using TaskManager.Infrastructure.Persistence; 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
     {
@@ -61,7 +61,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Aplicar migraciones al arrancar (safe, con logging)
+
 using (var scope = app.Services.CreateScope())
 {
     var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
@@ -72,13 +72,13 @@ using (var scope = app.Services.CreateScope())
 
         try
         {
-            // Intento preferente: aplicar migraciones existentes
+        
             dbContext.Database.Migrate();
             logger.LogInformation("Database migrations applied.");
         }
         catch (Exception migrateEx)
         {
-            // Fallback para entornos de desarrollo donde no hay migraciones creadas
+           
             logger.LogWarning(migrateEx, "Migrate() failed. Intentando EnsureCreated() como fallback.");
             try
             {
@@ -105,7 +105,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Enable developer exception page in Development, otherwise configure a simple JSON exception handler
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -127,7 +127,7 @@ else
     app.UseHsts();
 }
 
-// Swagger UI (exposed at application root)
+// Swagger UI 
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -140,7 +140,7 @@ app.UseCors("Corspolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Use endpoint mapping for controllers
+
 app.MapControllers();
 
 app.Run();
